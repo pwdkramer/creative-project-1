@@ -1,0 +1,116 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+
+.reportPage {
+  text-align: center;
+  font-size: 36px;
+  color:white;
+}
+
+.row img {
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.row p {
+  color: white;
+  text-align: center;
+}
+
+.indexgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  align-items: stretch;
+  margin: auto;
+  padding: 50px;
+}
+
+.row {
+  margin: 8px - 16px;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 32%;
+}
+
+.mastersPortrait {
+  padding: 10px;
+}
+
+.jediCode {
+  color: white;
+  font-size: 45px;
+}
+
+.navbar {
+  font-family: StarWars;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.journal {
+  color: white;
+  font-size: 20px;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  font-size: 36px;
+  display: block;
+  color: yellow;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  color: #3d87ff;
+}
+
+nav li a:hover:not(.active) {
+  color: #3d87ff;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: yellow;
+  text-align: right;
+}
+
+div p a {
+  font-family: StarWars;
+  color:yellow;
+  text-decoration: none;
+}
+
+@font-face { font-family: StarWars; src: url("/fonts/star_jedi/starjedi/Starjedi.ttf");}
